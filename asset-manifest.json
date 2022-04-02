@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/kcrypto-camp-final-project-team/static/css/main.8e5fdbc8.css",
+    "main.js": "/kcrypto-camp-final-project-team/static/js/main.202a1c8e.js",
+    "static/media/hazel.png": "/kcrypto-camp-final-project-team/static/media/hazel.a23f4f163b10c90818e9.png",
+    "static/media/section1-bg.png": "/kcrypto-camp-final-project-team/static/media/section1-bg.e8de84515d211d2621b0.png",
+    "static/media/TrustNews-logos.png": "/kcrypto-camp-final-project-team/static/media/TrustNews-logos.e650bdd411e29b8bfa6a.png",
+    "static/media/tokenomatic.png": "/kcrypto-camp-final-project-team/static/media/tokenomatic.2db96c2e78d7cd4dd3d6.png",
+    "static/media/section2-item.png": "/kcrypto-camp-final-project-team/static/media/section2-item.a136d70c54bec2ba9f0c.png",
+    "static/media/section5-item.png": "/kcrypto-camp-final-project-team/static/media/section5-item.5d8bb77c574f2af5511f.png",
+    "static/media/section3-icon1.svg": "/kcrypto-camp-final-project-team/static/media/section3-icon1.4e9f99fe55d959c892e652ab08c23950.svg",
+    "static/media/section3-icon3.svg": "/kcrypto-camp-final-project-team/static/media/section3-icon3.c827898aab4d7d01b2846483f08bcf3f.svg",
+    "static/media/section3-icon2.svg": "/kcrypto-camp-final-project-team/static/media/section3-icon2.de07255b5c3880412a2fb34131b8c512.svg",
+    "static/media/arrow.svg": "/kcrypto-camp-final-project-team/static/media/arrow.f6e16dfe647aebb7e3ae74b148ce4402.svg",
+    "index.html": "/kcrypto-camp-final-project-team/index.html",
+    "main.8e5fdbc8.css.map": "/kcrypto-camp-final-project-team/static/css/main.8e5fdbc8.css.map",
+    "main.202a1c8e.js.map": "/kcrypto-camp-final-project-team/static/js/main.202a1c8e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e5fdbc8.css",
+    "static/js/main.202a1c8e.js"
+  ]
+}
