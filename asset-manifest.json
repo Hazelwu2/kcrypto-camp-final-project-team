@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kcrypto-camp-final-project-team/static/css/main.8e5fdbc8.css",
-    "main.js": "/kcrypto-camp-final-project-team/static/js/main.1a93cc37.js",
+    "main.js": "/kcrypto-camp-final-project-team/static/js/main.d31e6de6.js",
     "static/media/hazel.png": "/kcrypto-camp-final-project-team/static/media/hazel.a23f4f163b10c90818e9.png",
     "static/media/section1-bg.png": "/kcrypto-camp-final-project-team/static/media/section1-bg.e8de84515d211d2621b0.png",
     "static/media/TrustNews-logos.png": "/kcrypto-camp-final-project-team/static/media/TrustNews-logos.e650bdd411e29b8bfa6a.png",
@@ -14,10 +14,10 @@
     "static/media/arrow.svg": "/kcrypto-camp-final-project-team/static/media/arrow.f6e16dfe647aebb7e3ae74b148ce4402.svg",
     "index.html": "/kcrypto-camp-final-project-team/index.html",
     "main.8e5fdbc8.css.map": "/kcrypto-camp-final-project-team/static/css/main.8e5fdbc8.css.map",
-    "main.1a93cc37.js.map": "/kcrypto-camp-final-project-team/static/js/main.1a93cc37.js.map"
+    "main.d31e6de6.js.map": "/kcrypto-camp-final-project-team/static/js/main.d31e6de6.js.map"
   },
   "entrypoints": [
     "static/css/main.8e5fdbc8.css",
-    "static/js/main.1a93cc37.js"
+    "static/js/main.d31e6de6.js"
   ]
 }
