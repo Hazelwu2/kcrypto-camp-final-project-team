@@ -60,6 +60,11 @@ export const Header = () => {
           UT幣 {utBalance} 顆
         </div>
       </Menu.Item>
+      {/* <Menu.Item key={Math.random()}>
+        <Link to="/token">
+          GT / UT
+        </Link>
+      </Menu.Item> */}
       <Menu.Divider />
       <Menu.Item key={Math.random()}>
         <Link to="/posts">
@@ -131,7 +136,7 @@ export const Header = () => {
 
 
   return (
-    <header className="nav">
+    <header>
       <Link className="nav-left" to="/">
         <img className="img-fluid" src={Logo} alt="" />
         <span>
@@ -149,7 +154,7 @@ export const Header = () => {
                 placement="bottomLeft"
               >
                 <button className="btn btn-border">
-                  {accountData?.address.substring(0, 15)}...
+                  {accountData?.address.substring(0, 8)}...
                 </button>
               </Dropdown>
             </div>

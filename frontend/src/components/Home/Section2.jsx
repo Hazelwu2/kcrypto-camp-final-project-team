@@ -5,10 +5,10 @@ export const Section2 = () => {
     <section className="section2">
       <div className="container">
         <div className="row">
-          <div className="col-6 flex-justify">
+          <div className="col-sm-12 col-md-6 flex-justify">
             <img className="img-fluid" src={ItemImg} alt="Item" />
           </div>
-          <div className="col-6 flex-justify">
+          <div className="col-sm-12 col-md-6 flex-justify m-auto">
             <div className="title linear-text">
               可信任的資訊提供平台 <br />
               代幣政策<br />

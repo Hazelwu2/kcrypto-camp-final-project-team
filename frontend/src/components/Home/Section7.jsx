@@ -52,9 +52,9 @@ export const Section7 = () => {
           <span>Our Team</span>
         </div>
 
-        <div className="row">
+        <div className="row flex-justify">
           {teamList.map((item, index) => (
-            <div className="col-4 flex-justify" key={index}>
+            <div className="col-sm-12 col-md-4 flex-justify" key={index}>
               <div className="box">
                 <div
                   className="box-avatar"

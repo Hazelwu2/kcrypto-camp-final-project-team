@@ -6,32 +6,12 @@
   height: auto
 }
 
-// Usage
-.container {
-  @include mixins.make-container();
-
-  @media screen and (min-width: 900px) {
-    max-width: 860px;
-  }
-
-  @media screen and (max-width: 767px) {
-    max-width: 960px;
-  }
-  
-  @media screen and (min-width: 1400px) {
-    max-width: 1320px;
-  }
-
-  @media screen and (min-width: 1024px) {
-    max-width: 1140px;
-  }
-
-
+.mb-2 {
+  margin-bottom: 2rem;
 }
-// .container {
-//   max-width: 760px;
-//   margin: 0 auto;
-// }
+.m-auto {
+  margin: 0 auto;
+}
 
 .d-flex {
   display: flex;
@@ -69,17 +49,12 @@
   flex-wrap: wrap;
 }
 
-.col-12 { width: 100%; }
-.col-7 { width: 58%; }
-.col-6 { width: 50%; }
-.col-5 { width: 42%; }
-.col-4 { width: 33.3%; }
-.col-3 { width: 25%; }
+.align-item-start {
+  align-items: flex-start;
+}
 
-.col-sm-4 {
-  @media screen and (min-width: 232px) {
-
-  }
+.row.custom-row {
+  display: block;
 }
 
 .col {
@@ -97,8 +72,9 @@
   border: 0;
   font-size: 1.8rem;
 
-  &:hover {
+  &:hover, &:focus {
     cursor: pointer;
+    color: #fff;
   }
 }
 

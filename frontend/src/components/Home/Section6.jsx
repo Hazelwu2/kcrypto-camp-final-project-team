@@ -3,7 +3,7 @@ export const Section6 = () => {
     <section className="section6">
       <div className="container">
         <div className="row">
-          <div className="col-12">
+          <div className="col-sm-12">
             <div className="box">
               <div className="box-content">
                 <div className="title linear-text">贊助廣告</div>

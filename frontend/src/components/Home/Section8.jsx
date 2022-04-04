@@ -5,7 +5,7 @@ export const Section8 = () => {
       content: [
         '專案啟動',
         '發行代幣 TNC、TDC',
-        '定期投票選出紀念性 NFT，以競標方式回饋重大消息提供者',
+        '定期投票選出紀念性 NFT',
         '贊助廣告競標機制'
       ]
     },
@@ -41,9 +41,9 @@ export const Section8 = () => {
           <span>ROADMAP</span>
         </div>
 
-        <div className="row">
+        <div className="row custom-row text-center">
           {phaseList.map((phase, index) => (
-            <div className="col-3 flex-justify" key={index}>
+            <div className="col-xs-12 col-sm-3" key={index}>
               <div className="box">
                 <h2 className="name title linear-text">{phase.title}</h2>
 
