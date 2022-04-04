@@ -23,7 +23,7 @@ ReactDOM.render(
   <React.StrictMode>
     <>
       <Provider autoConnect provider={provider}>
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router basename={process.env.REACT_APP_BASENAME}>
           <Routes>
             <Route path="/" exact element={<App />} />
             <Route path="/posts" exact element={<PostList />} />
