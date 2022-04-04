@@ -126,9 +126,11 @@ export const Header = () => {
     }
   }
 
-  useEffect(() => {
-    getGtBalance()
-    getUtBalance()
+  useEffect(async () => {
+    if (accountData?.address) {
+      getGtBalance()
+      getUtBalance()
+    }
   }, [accountData?.address])
 
 
