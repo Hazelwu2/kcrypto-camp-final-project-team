@@ -90,8 +90,6 @@ export const Header = () => {
         args: [accountData?.address]
       })
 
-      console.log('[GT]', data)
-
       if (error) {
         console.error('[getGtBalance]', error)
         handleError(error)
@@ -116,8 +114,6 @@ export const Header = () => {
         handleError(error)
         return
       }
-
-      console.log('[UT]', data)
 
       const balance = parseInt(data._hex)
       setUtBalance(balance)
