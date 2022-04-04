@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kcrypto-camp-final-project-team/static/css/main.f55cd439.css",
-    "main.js": "/kcrypto-camp-final-project-team/static/js/main.283c1e8e.js",
+    "main.css": "/kcrypto-camp-final-project-team/static/css/main.c2e504f7.css",
+    "main.js": "/kcrypto-camp-final-project-team/static/js/main.39240382.js",
     "static/media/hazel.png": "/kcrypto-camp-final-project-team/static/media/hazel.a23f4f163b10c90818e9.png",
     "static/media/Archer.jpg": "/kcrypto-camp-final-project-team/static/media/Archer.dc00f433372ecf00023c.jpg",
     "static/media/David.jpg": "/kcrypto-camp-final-project-team/static/media/David.f9a24020dd3196ddd2db.jpg",
@@ -15,15 +15,15 @@
     "static/media/section5-item.png": "/kcrypto-camp-final-project-team/static/media/section5-item.5d8bb77c574f2af5511f.png",
     "static/media/preloader.gif": "/kcrypto-camp-final-project-team/static/media/preloader.c9497b874e6e37ef8555.gif",
     "static/media/section3-icon1.svg": "/kcrypto-camp-final-project-team/static/media/section3-icon1.4e9f99fe55d959c892e652ab08c23950.svg",
+    "index.html": "/kcrypto-camp-final-project-team/index.html",
     "static/media/section3-icon3.svg": "/kcrypto-camp-final-project-team/static/media/section3-icon3.c827898aab4d7d01b2846483f08bcf3f.svg",
     "static/media/section3-icon2.svg": "/kcrypto-camp-final-project-team/static/media/section3-icon2.de07255b5c3880412a2fb34131b8c512.svg",
     "static/media/arrow.svg": "/kcrypto-camp-final-project-team/static/media/arrow.f6e16dfe647aebb7e3ae74b148ce4402.svg",
-    "index.html": "/kcrypto-camp-final-project-team/index.html",
-    "main.f55cd439.css.map": "/kcrypto-camp-final-project-team/static/css/main.f55cd439.css.map",
-    "main.283c1e8e.js.map": "/kcrypto-camp-final-project-team/static/js/main.283c1e8e.js.map"
+    "main.c2e504f7.css.map": "/kcrypto-camp-final-project-team/static/css/main.c2e504f7.css.map",
+    "main.39240382.js.map": "/kcrypto-camp-final-project-team/static/js/main.39240382.js.map"
   },
   "entrypoints": [
-    "static/css/main.f55cd439.css",
-    "static/js/main.283c1e8e.js"
+    "static/css/main.c2e504f7.css",
+    "static/js/main.39240382.js"
   ]
 }
