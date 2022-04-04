@@ -15,7 +15,7 @@ export const NetworkSwitch = () => {
       </div>
 
       {switchNetwork &&
-        networkData.chains.filter(n => n.name == 'Rinkeby').map((x) =>
+        networkData.chains.filter(n => n.name === 'Rinkeby').map((x) =>
           x.id === networkData.chain?.id ? null : (
             <button class="btn btn-border" key={x.id} onClick={() => switchNetwork(x.id)}>
               Switch to {x.name}

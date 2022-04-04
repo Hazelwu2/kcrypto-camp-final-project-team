@@ -1,5 +1,4 @@
 import Modal from "react-modal";
-import React, { useEffect, useState } from "react";
 
 export const PostModal = (props) => {
 

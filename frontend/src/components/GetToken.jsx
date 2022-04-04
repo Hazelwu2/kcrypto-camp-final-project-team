@@ -7,11 +7,7 @@ import {
   useContractWrite,
 } from "wagmi";
 // Contract
-import { post_contract, gt_token_contract, ut_token_contract } from '../config/contract'
-import { ethers } from 'ethers'
-// IPFS
-const ipfsAPI = require("ipfs-http-client");
-const ipfs = ipfsAPI({ host: "ipfs.infura.io", port: "5001", protocol: "https" });
+import { gt_token_contract } from '../config/contract'
 
 /*
   測試合約
@@ -23,7 +19,7 @@ export const GetToken = () => {
     fetchEns: true,
   })
   // Fetching balance information
-  const [{ data: getBalance }] = useBalance({
+  const [] = useBalance({
     addressOrName: accountData?.address,
   });
 

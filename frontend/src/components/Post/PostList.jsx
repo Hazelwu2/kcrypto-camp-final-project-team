@@ -1,5 +1,5 @@
+/* eslint-disable no-empty-pattern */
 import Swal from 'sweetalert2'
-import { ethers, utils } from 'ethers'
 import { Header, PostModal } from '../../components'
 
 import {
@@ -71,6 +71,7 @@ export const PostList = () => {
     "giveThreadOneGood"
   );
 
+  // eslint-disable-next-line no-unused-vars
   let [{ data, error, loading: txLoading }, waitForTransaction] = useWaitForTransaction({
     hash: txHash
   })
@@ -96,6 +97,7 @@ export const PostList = () => {
         const { data: threadRaw } = await getThreadById({ args: [i] });
         console.error('[threadRaw]', threadRaw)
 
+        // eslint-disable-next-line no-useless-escape
         const ipfsHash = threadRaw.replace(/[^A-Za-z 0-9 \.,\?""!@#\$%\^&\*\(\)-_=\+;:<>\/\\\|\}\{\[\]`~]*/g, "");
 
         const jsonManifestBuffer = await getFromIPFS(ipfsHash);

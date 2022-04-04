@@ -1,6 +1,9 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable no-empty-pattern */
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { Form, Input } from 'antd';
-import { useNavigate, useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import {
   useProvider,
   useAccount,
