@@ -26,9 +26,11 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: npm install
       run: |
+        cd ./frontend
         yarn install
     - name: build
       run: |
+        cd ./frontend
         yarn build
     - name: Commit files
       run: |
