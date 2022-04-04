@@ -55,7 +55,7 @@ Install
 $ cd frontend
 $ yarn install && yarn start
 ```
-📱 開啟 http://localhost:3000，便可看到 Dapp 開發環境<br>
+📱 開啟 `http://localhost:3000/kcrypto-camp-final-project-team` ，便可看到 Dapp 開發環境<br>
 👨🏼‍💻 開啟 .env 設定 REACT_APP_INFURA_ID，可到 [Infura](https://infura.io/) 申請 Project 取得 ID
 
 Build
