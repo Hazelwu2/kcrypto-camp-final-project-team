@@ -2,6 +2,7 @@
   "name": "test",
   "version": "0.1.0",
   "private": false,
+  "license": "MIT",
   "homepage": "https://hazelwu2.github.io/kcrypto-camp-final-project-team/",
   "dependencies": {
     "@babel/core": "^7.16.0",
