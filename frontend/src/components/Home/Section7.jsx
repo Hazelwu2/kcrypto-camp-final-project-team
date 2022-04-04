@@ -1,4 +1,3 @@
-import Icon1 from '../../assets/images/section3-icon1.svg'
 import Hazel from '../../assets/images/hazel.png'
 import Henry from '../../assets/images/Henry.jpg'
 import Archer from '../../assets/images/Archer.jpg'
