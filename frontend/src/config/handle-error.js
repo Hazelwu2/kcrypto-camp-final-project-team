@@ -1,6 +1,6 @@
 import Swal from 'sweetalert2'
 
-export const handleError = ({ reason = '發生無法預期的錯誤', message = '' }) => {
+export const handleError = ({ reason = '', message = '' }) => {
   Swal.fire({
     icon: 'error',
     title: '發生錯誤',

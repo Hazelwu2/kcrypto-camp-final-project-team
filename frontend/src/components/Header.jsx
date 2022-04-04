@@ -62,7 +62,7 @@ export const Header = () => {
       </Menu.Item>
       <Menu.Item key={Math.random()}>
         <Link to="/token">
-          GT / UT
+          GT / UT 代幣
         </Link>
       </Menu.Item>
       <Menu.Divider />
