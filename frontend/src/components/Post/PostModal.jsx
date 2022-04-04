@@ -40,7 +40,7 @@ export const PostModal = (props) => {
 
               </div>
               <div className="content">
-                <span key={index}>{item.content}</span>
+                <span key={index + Math.random()}>{item.content}</span>
               </div>
               <div>
                 <button
