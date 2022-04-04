@@ -239,8 +239,8 @@ export const TokenList = () => {
                 <div className="title">UT</div>
                 <div className="number">{utBalance} 顆</div>
                 <button
-                  onClick={mintUtToken}>
                   className="btn btn-border"
+                  onClick={mintUtToken}
                 >
                   Mint UT
                 </button>
