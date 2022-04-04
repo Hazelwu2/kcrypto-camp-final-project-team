@@ -1,5 +1,7 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable no-empty-pattern */
 // Utils
-import { Menu, Dropdown, Button } from 'antd';
+import { Menu, Dropdown } from 'antd';
 import { Link, useLocation } from "react-router-dom";
 import React, { useEffect, useState } from "react";
 import { useProvider, useAccount, useContractRead } from 'wagmi'
