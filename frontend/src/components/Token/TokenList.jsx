@@ -248,6 +248,22 @@ export const TokenList = () => {
             </div>
           </div>
 
+          <div className="col-xs-12 flex-justify">
+            <div className="box-content">
+              <button
+                className="btn btn-border"
+              >
+                Stake UT
+              </button>
+              <button
+                className="btn btn-border"
+              >
+                Unstake UT
+              </button>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </div >

@@ -2,28 +2,11 @@
 
 .token-list {
   .box {
-    @include mixins.linear-area(100%, 30rem);
+    @include mixins.linear-area(100%, 20rem);
     &-content {
       position: relative;
       z-index: 2;
+      font-weight: 300;
     }
   }
 }
-// .box {
-  // min-height: 180px;
-  // // background: #191a19;
-  // background: white;
-  // box-shadow: 16px 16px 44px #0a0a0a, -16px -16px 44px #282a28;
-  // padding: 20px 30px;
-  // border-radius: 15px;
-  // overflow: hidden;
-  // // color: #fff;
-  // color: #191a19;
-  // text-align: center;
-  // margin-top: 2rem;
-
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
-// }
