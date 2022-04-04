@@ -46,36 +46,36 @@ export const Header = () => {
 
   const menu = (
     <Menu>
-      <Menu.Item>
+      <Menu.Item key={Math.random()}>
         {accountData?.address}
       </Menu.Item>
       <Menu.Divider />
-      <Menu.Item>
+      <Menu.Item key={Math.random()}>
         <div>
           GT幣 {gtBalance} 顆
         </div>
       </Menu.Item>
-      <Menu.Item>
+      <Menu.Item key={Math.random()}>
         <div>
           UT幣 {utBalance} 顆
         </div>
       </Menu.Item>
       <Menu.Divider />
-      <Menu.Item>
+      <Menu.Item key={Math.random()}>
         <Link to="/posts">
           文章列表
         </Link>
       </Menu.Item>
       {
         location.pathname === '/posts' && (
-          <Menu.Item>
+          <Menu.Item key={Math.random()}>
             <Link to="/post/create">
               發表文章
             </Link>
           </Menu.Item>
         )
       }
-      <Menu.Item>
+      <Menu.Item key={Math.random()}>
         <div
           onClick={disconnect}>
           登出
@@ -93,6 +93,7 @@ export const Header = () => {
       console.log('[GT]', data)
 
       if (error) {
+        console.error('[getGtBalance]', error)
         handleError(error)
         return
       }
@@ -111,6 +112,7 @@ export const Header = () => {
       })
 
       if (error) {
+        console.error('[getUtBalance]', error)
         handleError(error)
         return
       }
