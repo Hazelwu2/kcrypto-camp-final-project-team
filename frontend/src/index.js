@@ -11,6 +11,7 @@ import { PostList, CreatePost, TokenList } from './components'
 import { providers } from "ethers";
 import { Provider } from "wagmi";
 
+
 // API key for Ethereum node
 // services are Infura (infura.io)
 const infuraId = process.env.REACT_APP_INFURA_ID;

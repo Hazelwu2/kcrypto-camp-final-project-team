@@ -3,6 +3,11 @@
   z-index: 3;
 }
 
+.ReactModal__Content.ReactModal__Content--after-open {
+  border: none !important;
+  transform: translate(-50%, 20%) !important;
+}
+
 .modal-container {
   padding: 20px;
   margin: 5px auto;

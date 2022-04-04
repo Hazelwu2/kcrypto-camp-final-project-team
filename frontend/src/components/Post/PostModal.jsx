@@ -18,7 +18,6 @@ export const PostModal = (props) => {
       isOpen={props.modalVisible}
       style={customStyles}
       ariaHideApp={false}
-      className="modal"
     >
       <div className="modal-container">
         {
