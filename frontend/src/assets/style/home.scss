@@ -54,26 +54,26 @@ a {
   font-weight: 700;
 
   &.title {
-    font-size: 4.5rem;
-    line-height: 7rem;
+    font-size: 3.5rem;
+    line-height: 6rem;
   }
 }
 
 .section1 .title {
-  font-size: 7rem;
-  line-height: 14.7rem;
+  font-size: 5rem;
+  line-height: 10rem;
 }
 
 section span {
   font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 1.8rem;
+  line-height: 3rem;
   text-align: center;
 }
 
 
 /* Section */
-.section2, .section3, .section4, .section5, .section6, .section7, .section8 {
+.section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8 {
   .info {
     margin-bottom: 5rem;
   }
@@ -146,7 +146,7 @@ section span {
   .box {
     width: 100%;
     height: 30rem;
-    padding: 0 8rem;
+    padding: 0 5rem;
 
     &-content {
       align-items: start;
