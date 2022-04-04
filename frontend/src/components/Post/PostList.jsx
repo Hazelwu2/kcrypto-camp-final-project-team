@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable no-empty-pattern */
 import Swal from 'sweetalert2'
 import { Header, PostModal } from '../../components'
@@ -131,6 +133,7 @@ export const PostList = () => {
 
       console.log('[loadedAssets]', loadedAssets)
     } catch (error) {
+      console.error('[PostList]', error)
       handleError({ reason: error })
       Swal.fire({
         icon: 'error',
