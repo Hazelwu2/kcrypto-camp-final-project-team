@@ -26,9 +26,9 @@ ReactDOM.render(
         <Router basename={process.env.PUBLIC_URL}>
           <Routes>
             <Route path="/" exact element={<App />} />
-            <Route path="/posts" element={<PostList />} />
-            <Route path="/post/create" element={<CreatePost />} />
-            <Route path="/token" element={<TokenList />} />
+            <Route path="/posts" exact element={<PostList />} />
+            <Route path="/post/create" exact element={<CreatePost />} />
+            <Route path="/token" exact element={<TokenList />} />
           </Routes>
         </Router>
       </Provider>
