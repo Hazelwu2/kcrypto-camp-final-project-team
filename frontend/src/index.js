@@ -7,7 +7,7 @@ import {
   Routes,
 } from "react-router-dom";
 
-import { PostList, CreatePost } from './components'
+import { PostList, CreatePost, TokenList } from './components'
 import { providers } from "ethers";
 import { Provider } from "wagmi";
 
@@ -27,6 +27,7 @@ ReactDOM.render(
             <Route path="/" exact element={<App />} />
             <Route path="/posts" element={<PostList />} />
             <Route path="/post/create" element={<CreatePost />} />
+            <Route path="/token" element={<TokenList />} />
           </Routes>
         </Router>
       </Provider>

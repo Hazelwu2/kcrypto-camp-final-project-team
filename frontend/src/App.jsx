@@ -14,6 +14,7 @@ import './assets/style/helper.scss'
 import './assets/style/home.scss'
 import './assets/style/post.scss'
 import './assets/style/modal.scss'
+import './assets/style/token_list.scss'
 
 export const App = () => {
   return (

@@ -60,11 +60,11 @@ export const Header = () => {
           UT幣 {utBalance} 顆
         </div>
       </Menu.Item>
-      {/* <Menu.Item key={Math.random()}>
+      <Menu.Item key={Math.random()}>
         <Link to="/token">
           GT / UT
         </Link>
-      </Menu.Item> */}
+      </Menu.Item>
       <Menu.Divider />
       <Menu.Item key={Math.random()}>
         <Link to="/posts">

@@ -22,10 +22,15 @@ a {
   color: $primary;
 }
 
+.btn:hover, .btn:focus {
+  outline: none;
+  outline-offset: 0px;
+}
+
 .loading {
   width: 100vw;
   height: 100vh;
-  background: white;
+  background: $primary;
   color: black;
   display: flex;
   justify-content: center;
